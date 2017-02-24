@@ -15,6 +15,10 @@
 		0177B5A31E5E290A00C59E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0177B5A11E5E290A00C59E45 /* LaunchScreen.storyboard */; };
 		0177B5AE1E5E290A00C59E45 /* BLETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B5AD1E5E290A00C59E45 /* BLETests.m */; };
 		0177B5B91E5E290A00C59E45 /* BLEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0177B5B81E5E290A00C59E45 /* BLEUITests.m */; };
+		0177B5C81E5E291B00C59E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177B5C71E5E291B00C59E45 /* UIKit.framework */; };
+		0177B5CB1E5E292C00C59E45 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177B5C91E5E292C00C59E45 /* CoreFoundation.framework */; };
+		0177B5CC1E5E292C00C59E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177B5CA1E5E292C00C59E45 /* Foundation.framework */; };
+		0177B5CE1E5E293100C59E45 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177B5CD1E5E293100C59E45 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		0177B5B41E5E290A00C59E45 /* BLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0177B5B81E5E290A00C59E45 /* BLEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEUITests.m; sourceTree = "<group>"; };
 		0177B5BA1E5E290A00C59E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0177B5C71E5E291B00C59E45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0177B5C91E5E292C00C59E45 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0177B5CA1E5E292C00C59E45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0177B5CD1E5E293100C59E45 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0177B5CE1E5E293100C59E45 /* CoreBluetooth.framework in Frameworks */,
+				0177B5CB1E5E292C00C59E45 /* CoreFoundation.framework in Frameworks */,
+				0177B5CC1E5E292C00C59E45 /* Foundation.framework in Frameworks */,
+				0177B5C81E5E291B00C59E45 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,7 @@
 				0177B5AC1E5E290A00C59E45 /* BLETests */,
 				0177B5B71E5E290A00C59E45 /* BLEUITests */,
 				0177B5911E5E290A00C59E45 /* Products */,
+				0177B5C61E5E291B00C59E45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +151,17 @@
 				0177B5BA1E5E290A00C59E45 /* Info.plist */,
 			);
 			path = BLEUITests;
+			sourceTree = "<group>";
+		};
+		0177B5C61E5E291B00C59E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0177B5CD1E5E293100C59E45 /* CoreBluetooth.framework */,
+				0177B5C91E5E292C00C59E45 /* CoreFoundation.framework */,
+				0177B5CA1E5E292C00C59E45 /* Foundation.framework */,
+				0177B5C71E5E291B00C59E45 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
